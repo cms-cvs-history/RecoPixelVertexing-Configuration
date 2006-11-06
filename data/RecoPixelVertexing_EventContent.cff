@@ -1,0 +1,24 @@
+#Full Event content 
+block RecoTrackerFEVT = {
+  untracked vstring outputCommands = {
+	"keep *_pixelTracks_*_*",
+	"keep *_pixelVertices_*_*"
+  }		
+}	
+
+#RECO content
+block RecoTrackerRECO = {
+  untracked vstring outputCommands = {
+	"keep *_pixelTracks_*_*",
+	"keep *_pixelVertices_*_*"
+
+  }		
+}	
+
+#AOD content
+block RecoTrackerAOD = {
+  untracked vstring outputCommands = {
+	"keep *_pixelTracks_*_*",
+	"keep *_pixelVertices_*_*"
+  }		
+}	
