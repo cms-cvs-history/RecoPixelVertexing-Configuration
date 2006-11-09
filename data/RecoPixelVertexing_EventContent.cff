@@ -1,5 +1,5 @@
 #Full Event content 
-block RecoTrackerFEVT = {
+block RecoPixelVertexingFEVT = {
   untracked vstring outputCommands = {
 	"keep *_pixelTracks_*_*",
 	"keep *_pixelVertices_*_*"
@@ -7,7 +7,7 @@ block RecoTrackerFEVT = {
 }	
 
 #RECO content
-block RecoTrackerRECO = {
+block RecoPixelVertexingRECO = {
   untracked vstring outputCommands = {
 	"keep *_pixelTracks_*_*",
 	"keep *_pixelVertices_*_*"
@@ -16,7 +16,7 @@ block RecoTrackerRECO = {
 }	
 
 #AOD content
-block RecoTrackerAOD = {
+block RecoPixelVertexingAOD = {
   untracked vstring outputCommands = {
 	"keep *_pixelTracks_*_*",
 	"keep *_pixelVertices_*_*"
