@@ -16,9 +16,9 @@ block RecoPixelVertexingRECO = {
 }	
 
 #AOD content
-block RecoPixelVertexingAOD = {
-  untracked vstring outputCommands = {
-	"keep recoTracks_pixelTracks_*_*",
-	"keep *_pixelVertices_*_*"
-  }		
-}	
+#block RecoPixelVertexingAOD = {
+#  untracked vstring outputCommands = {
+#	"keep recoTracks_pixelTracks_*_*",
+#	"keep *_pixelVertices_*_*"
+#  }		
+#}	
