@@ -1,5 +1,0 @@
-include "RecoPixelVertexing/PixelTrackFitting/data/PixelTracks.cff"
-include "RecoPixelVertexing/PixelVertexFinding/data/PixelVertexes.cff"                                                                               
-
-
-sequence recopixelvertexing = {pixelTracks,pixelVertices}
